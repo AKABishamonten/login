@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "16956218808",
+    "project_id": "loginfuc",
+    "storage_bucket": "loginfuc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16956218808:android:6114d9353a6fa41e79434d",
+        "android_client_info": {
+          "package_name": "com.testtool.loginfuc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16956218808-j7j8e77mtu6tjlosg6eghr864pm5tqnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.testtool.loginfuc",
+            "certificate_hash": "0e5ad83894a69b798b62f4c83968347e12602662"
+          }
+        },
+        {
+          "client_id": "16956218808-b2jmvsle8gf7gi8rbfu50r0ap082ok1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnWQYLyn8VPx-6I2b5Yt8GG-e_jP80ED4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16956218808-b2jmvsle8gf7gi8rbfu50r0ap082ok1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

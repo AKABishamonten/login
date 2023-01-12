@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">loginfuc</string>
+    <string name="facebook_app_id">5907933935909052</string>
+    <string name="fb_login_protocol_scheme">fb5907933935909052</string>
+    <string name="facebook_client_token">1b278ccc5b56bf109ffd41460b8b4730</string>
+</resources>
