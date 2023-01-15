@@ -7,7 +7,7 @@ import 'package:loginfuc/main.dart';
 import 'home_page.dart';
 
 class LoginWithEmail extends StatefulWidget {
-  const LoginWithEmail({super.key});
+  const LoginWithEmail({Key? key}) : super(key: key);
 
   @override
   State<LoginWithEmail> createState() => _LoginWithEmailState();

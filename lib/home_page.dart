@@ -36,10 +36,10 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    "Logout",
+                    toString(),
                     style: TextStyle(
                       color: Colors.red,
-                      fontSize: 30,
+                      fontSize: 16,
                     ),
                   ),
                   IconButton(
