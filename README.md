@@ -1,4 +1,4 @@
-![This is an image](image/Data Diagram.drawio.png)
+![This is an image](image/data.png)
 ![This is an image](image/signin.png)
 ![This is an image](image/signup.png)
 ![This is an image](image/googleshow1.png)
