@@ -1,10 +1,5 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:fluttertoast/fluttertoast.dart';
-
-import 'home_page.dart';
+import 'package:loginfuc/otp.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -12,141 +7,52 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  TextEditingController phoneController = TextEditingController();
-  TextEditingController otpController = TextEditingController();
-
-  FirebaseAuth auth = FirebaseAuth.instance;
-  bool otpVisibility = false;
-  User? user;
-  String verificationID = "";
-
+  TextEditingController _controller = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color.fromARGB(255, 0, 0, 0),
-        title: Text(
-          "Phone Auth",
-        ),
+        title: Text('Phone Auth'),
       ),
-      body: Container(
-        margin: EdgeInsets.all(10),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            TextField(
-              controller: phoneController,
-              decoration: InputDecoration(
-                hintText: 'Phone Number',
-                prefix: Padding(
-                  padding: EdgeInsets.all(4),
-                  child: Text('+66'),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Column(children: [
+            Container(
+              margin: EdgeInsets.only(top: 60),
+              child: Center(
+                child: Text(
+                  'Phone Authentication',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 28),
                 ),
               ),
-              maxLength: 10,
-              keyboardType: TextInputType.phone,
             ),
-            Visibility(
+            Container(
+              margin: EdgeInsets.only(top: 40, right: 10, left: 10),
               child: TextField(
-                controller: otpController,
                 decoration: InputDecoration(
-                  hintText: 'OTP',
+                  hintText: 'Phone Number',
                   prefix: Padding(
                     padding: EdgeInsets.all(4),
-                    child: Text(''),
+                    child: Text('+1'),
                   ),
                 ),
-                maxLength: 6,
+                maxLength: 10,
                 keyboardType: TextInputType.number,
+                controller: _controller,
               ),
-              visible: otpVisibility,
+            )
+          ]),
+          SizedBox(
+              child: ElevatedButton(
+                  style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Color.fromARGB(255, 96, 172, 239)),),
+                  onPressed: () {
+                    Navigator.of(context).push(MaterialPageRoute(builder: (context) => OTPScreen(_controller.text)));
+                  },
+                  child: Text("Login with Phone")),
             ),
-            SizedBox(
-              height: 10,
-            ),
-            MaterialButton(
-              color: Colors.black,
-              onPressed: () {
-                if (otpVisibility) {
-                  verifyOTP();
-                } else {
-                  loginWithPhone();
-                }
-              },
-              child: Text(
-                otpVisibility ? "Verify" : "Login",
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 20,
-                ),
-              ),
-            ),
-          ],
-        ),
+        ],
       ),
-    );
-  }
-
-  void loginWithPhone() async {
-    auth.verifyPhoneNumber(
-      phoneNumber: "+66" + phoneController.text,
-      verificationCompleted: (PhoneAuthCredential credential) async {
-        await auth.signInWithCredential(credential).then((value) {
-          print("You are logged in successfully");
-        });
-      },
-      verificationFailed: (FirebaseAuthException e) {
-        print(e.message);
-      },
-      codeSent: (String verificationId, int? resendToken) {
-        otpVisibility = true;
-        verificationID = verificationId;
-        setState(() {});
-      },
-      codeAutoRetrievalTimeout: (String verificationId) {},
-    );
-  }
-
-  void verifyOTP() async {
-    PhoneAuthCredential credential = PhoneAuthProvider.credential(
-        verificationId: verificationID, smsCode: otpController.text);
-
-    await auth.signInWithCredential(credential).then(
-      (value) {
-        setState(() {
-          user = FirebaseAuth.instance.currentUser;
-        });
-      },
-    ).whenComplete(
-      () {
-        if (user != null) {
-          Fluttertoast.showToast(
-            msg: "You are logged in successfully",
-            toastLength: Toast.LENGTH_SHORT,
-            gravity: ToastGravity.BOTTOM,
-            timeInSecForIosWeb: 1,
-            backgroundColor: Colors.red,
-            textColor: Colors.white,
-            fontSize: 16.0,
-          );
-          Navigator.pushReplacement(
-            context,
-            MaterialPageRoute(
-              builder: (context) => HomePage(),
-            ),
-          );
-        } else {
-          Fluttertoast.showToast(
-            msg: "your login is failed",
-            toastLength: Toast.LENGTH_SHORT,
-            gravity: ToastGravity.BOTTOM,
-            timeInSecForIosWeb: 1,
-            backgroundColor: Colors.red,
-            textColor: Colors.white,
-            fontSize: 16.0,
-          );
-        }
-      },
     );
   }
 }

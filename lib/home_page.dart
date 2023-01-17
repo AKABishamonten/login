@@ -14,6 +14,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+   String? uid;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +37,7 @@ class _HomePageState extends State<HomePage> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Text(
-                    toString(),
+                    (uid!),
                     style: TextStyle(
                       color: Colors.red,
                       fontSize: 16,
@@ -61,5 +62,11 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
     );
+  }
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    uid = FirebaseAuth.instance.currentUser!.uid;
   }
 }
