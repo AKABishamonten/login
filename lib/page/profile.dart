@@ -63,16 +63,16 @@ class _ProfilePageState extends State<ProfilePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          Image.network(dataProvider.responseData.data![i].avatar!,height:100,width: 100,fit: BoxFit.cover,),
+                          Image.network(dataProvider.responseData.data![i].img!,height:100,width: 100,fit: BoxFit.cover,),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Column(
                                crossAxisAlignment: CrossAxisAlignment.start,
                                mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Text(dataProvider.responseData.data![i].firstName!),
+                                Text(dataProvider.responseData.data![i].num!),
                                 const SizedBox(height: 10,),
-                                Text(dataProvider.responseData.data![i].email!),
+                                Text(dataProvider.responseData.data![i].name!),
                               ],
                             ),
                           ),

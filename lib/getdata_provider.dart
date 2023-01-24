@@ -21,7 +21,7 @@ class GetDataProvider with ChangeNotifier {
   Future<ResponseData> getAllData() async {
     try {
       final response = await http
-          .get(Uri.parse("https://reqres.in/api/users?page=2"));
+          .get(Uri.parse("https://raw.githubusercontent.com/AKABishamonten/login/main/pokeapi.json"));
       if (response.statusCode == 200) {
         final item = json.decode(response.body);
         responseData = ResponseData.fromJson(item);
