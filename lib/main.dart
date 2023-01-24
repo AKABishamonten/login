@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:loginfuc/getdata_provider.dart';
 import 'package:loginfuc/login_fuction/authen_fuction.dart';
 import 'package:loginfuc/page/login.dart';
 import 'package:loginfuc/route/navigate.dart';
@@ -12,7 +13,7 @@ Future<void> main() async {
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider<Authenfuction>(create: (_) => Authenfuction(),
     ),
-   // ChangeNotifierProvider<UsersViewModel>(create: (_) => UsersViewModel(),)
+   ChangeNotifierProvider<GetDataProvider>(create: (_) => GetDataProvider(),)
   ], child: MyApp()));
 }
 
