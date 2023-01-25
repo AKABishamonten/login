@@ -1,0 +1,130 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "num": "001",
+        "name": "Bulbasaur",
+        "img": "https://www.serebii.net/pokemon/art/001.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 2,
+        "num": "002",
+        "name": "Ivysaur",
+        "img": "https://www.serebii.net/pokemon/art/002.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 3,
+        "num": "003",
+        "name": "Venusaur",
+        "img": "https://www.serebii.net/pokemon/art/003.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 4,
+        "num": "004",
+        "name": "Charmander",
+        "img": "https://www.serebii.net/pokemon/art/004.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 5,
+        "num": "005",
+        "name": "Charmeleon",
+        "img": "https://www.serebii.net/pokemon/art/005.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 6,
+        "num": "006",
+        "name": "Charizard",
+        "img": "https://www.serebii.net/pokemon/art/006.png",
+        "type": ["Fire", "Flying"]
+      },
+      {
+        "id": 7,
+        "num": "007",
+        "name": "Squirtle",
+        "img": "https://www.serebii.net/pokemon/art/007.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 8,
+        "num": "008",
+        "name": "Wartortle",
+        "img": "https://www.serebii.net/pokemon/art/008.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 9,
+        "num": "009",
+        "name": "Blastoise",
+        "img": "https://www.serebii.net/pokemon/art/009.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 10,
+        "num": "010",
+        "name": "Caterpie",
+        "img": "https://www.serebii.net/pokemon/art/010.png",
+        "type": ["BUG"]
+      },
+      {
+        "id": 11,
+        "num": "011",
+        "name": "Metapod",
+        "img": "https://www.serebii.net/pokemon/art/011.png",
+        "type": ["BUG"]
+      },
+      {
+        "id": 12,
+        "num": "012",
+        "name": "Metapod",
+        "img": "https://www.serebii.net/pokemon/art/012.png",
+        "type": ["BUG" , "Flying"]
+      },
+      {
+        "id": 13,
+        "num": "013",
+        "name": "Weedle",
+        "img": "https://www.serebii.net/pokemon/art/013.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 14,
+        "num": "014",
+        "name": "Kakuna",
+        "img": "https://www.serebii.net/pokemon/art/014.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 15,
+        "num": "015",
+        "name": "Beedrill",
+        "img": "https://www.serebii.net/pokemon/art/015.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 16,
+        "num": "016",
+        "name": "Pidgey",
+        "img": "https://www.serebii.net/pokemon/art/016.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 17,
+        "num": "017",
+        "name": "Pidgeotto",
+        "img": "https://www.serebii.net/pokemon/art/017.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 18,
+        "num": "018",
+        "name": "Pidgeot",
+        "img": "https://www.serebii.net/pokemon/art/018.png",
+        "type": ["Normal" , "Flying"]
+      }
+    ]
+  }
