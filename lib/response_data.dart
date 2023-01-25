@@ -29,14 +29,16 @@ class Data {
   String? num;
   String? name;
   String? img;
+  List<String>? types;
 
-  Data({this.id, this.num, this.name, this.img});
+  Data({this.id, this.num, this.name, this.img, this.types});
 
   Data.fromJson(Map<String, dynamic> json) {
     id = json['id'];
     num = json['num'];
     name = json['name'];
     img = json['img'];
+    types = json['types'];
   }
 
   Map<String, dynamic> toJson() {
@@ -45,6 +47,7 @@ class Data {
     data['num'] = this.num;
     data['name'] = this.name;
     data['img'] = this.img;
+    data['types'] = this.types;
     return data;
   }
 }

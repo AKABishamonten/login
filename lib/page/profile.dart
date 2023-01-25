@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loginfuc/getdata_provider.dart';
 import 'package:loginfuc/login_fuction/authen_fuction.dart';
+import 'package:loginfuc/response_data.dart';
 import 'package:loginfuc/shimmer_layout.dart';
 import 'package:provider/provider.dart';
 
@@ -56,14 +57,17 @@ class _ProfilePageState extends State<ProfilePage> {
               shrinkWrap: true,
               itemCount:  dataProvider.responseData.data!.length,
               itemBuilder: (ctx, i) {
-                return Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                      
-                      child: Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        children: [
-                          Image.network(dataProvider.responseData.data![i].img!,height:100,width: 100,fit: BoxFit.cover,),
+                return ListTile(
+                  title: Text(dataProvider.responseData.data![i].name!),
+                  leading: Image.network(dataProvider.responseData.data![i].img!,),
+                  subtitle: Text(dataProvider.responseData.data![i].num!),
+                );
+              }),
+    );
+  }
+}
+
+/*Image.network(dataProvider.responseData.data![i].img!,height:100,width: 100,fit: BoxFit.cover,),
                           Padding(
                             padding: const EdgeInsets.all(8.0),
                             child: Column(
@@ -73,13 +77,4 @@ class _ProfilePageState extends State<ProfilePage> {
                                 Text(dataProvider.responseData.data![i].num!),
                                 const SizedBox(height: 10,),
                                 Text(dataProvider.responseData.data![i].name!),
-                              ],
-                            ),
-                          ),
-                        ],
-                      )),
-                );
-              }),
-    );
-  }
-}
+                                const SizedBox(height: 10,),*/
