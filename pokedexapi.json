@@ -1,0 +1,1061 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "num": "001",
+        "name": "Bulbasaur",
+        "img": "https://www.serebii.net/pokemon/art/001.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 2,
+        "num": "002",
+        "name": "Ivysaur",
+        "img": "https://www.serebii.net/pokemon/art/002.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 3,
+        "num": "003",
+        "name": "Venusaur",
+        "img": "https://www.serebii.net/pokemon/art/003.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 4,
+        "num": "004",
+        "name": "Charmander",
+        "img": "https://www.serebii.net/pokemon/art/004.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 5,
+        "num": "005",
+        "name": "Charmeleon",
+        "img": "https://www.serebii.net/pokemon/art/005.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 6,
+        "num": "006",
+        "name": "Charizard",
+        "img": "https://www.serebii.net/pokemon/art/006.png",
+        "type": ["Fire", "Flying"]
+      },
+      {
+        "id": 7,
+        "num": "007",
+        "name": "Squirtle",
+        "img": "https://www.serebii.net/pokemon/art/007.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 8,
+        "num": "008",
+        "name": "Wartortle",
+        "img": "https://www.serebii.net/pokemon/art/008.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 9,
+        "num": "009",
+        "name": "Blastoise",
+        "img": "https://www.serebii.net/pokemon/art/009.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 10,
+        "num": "010",
+        "name": "Caterpie",
+        "img": "https://www.serebii.net/pokemon/art/010.png",
+        "type": ["BUG"]
+      },
+      {
+        "id": 11,
+        "num": "011",
+        "name": "Metapod",
+        "img": "https://www.serebii.net/pokemon/art/011.png",
+        "type": ["BUG"]
+      },
+      {
+        "id": 12,
+        "num": "012",
+        "name": "Metapod",
+        "img": "https://www.serebii.net/pokemon/art/012.png",
+        "type": ["BUG" , "Flying"]
+      },
+      {
+        "id": 13,
+        "num": "013",
+        "name": "Weedle",
+        "img": "https://www.serebii.net/pokemon/art/013.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 14,
+        "num": "014",
+        "name": "Kakuna",
+        "img": "https://www.serebii.net/pokemon/art/014.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 15,
+        "num": "015",
+        "name": "Beedrill",
+        "img": "https://www.serebii.net/pokemon/art/015.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 16,
+        "num": "016",
+        "name": "Pidgey",
+        "img": "https://www.serebii.net/pokemon/art/016.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 17,
+        "num": "017",
+        "name": "Pidgeotto",
+        "img": "https://www.serebii.net/pokemon/art/017.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 18,
+        "num": "018",
+        "name": "Pidgeot",
+        "img": "https://www.serebii.net/pokemon/art/018.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 19,
+        "num": "019",
+        "name": "Rattata",
+        "img": "https://www.serebii.net/pokemon/art/019.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 20,
+        "num": "020",
+        "name": "Raticate",
+        "img": "https://www.serebii.net/pokemon/art/020.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 21,
+        "num": "021",
+        "name": "Spearow",
+        "img": "https://www.serebii.net/pokemon/art/021.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 22,
+        "num": "022",
+        "name": "Fearow",
+        "img": "https://www.serebii.net/pokemon/art/022.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 23,
+        "num": "023",
+        "name": "Ekans",
+        "img": "https://www.serebii.net/pokemon/art/023.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 24,
+        "num": "024",
+        "name": "Arbok",
+        "img": "https://www.serebii.net/pokemon/art/024.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 25,
+        "num": "025",
+        "name": "Pikachu",
+        "img": "https://www.serebii.net/pokemon/art/025.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 26,
+        "num": "026",
+        "name": "Raichu",
+        "img": "https://www.serebii.net/pokemon/art/026.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 27,
+        "num": "027",
+        "name": "Sandshrew",
+        "img": "https://www.serebii.net/pokemon/art/027.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 28,
+        "num": "028",
+        "name": "Sandslash",
+        "img": "https://www.serebii.net/pokemon/art/028.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 29,
+        "num": "029",
+        "name": "Nidoran♀",
+        "img": "https://www.serebii.net/pokemon/art/029.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 30,
+        "num": "030",
+        "name": "Nidorina",
+        "img": "https://www.serebii.net/pokemon/art/030.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 31,
+        "num": "031",
+        "name": "Nidoqueen",
+        "img": "https://www.serebii.net/pokemon/art/031.png",
+        "type": ["Poison","Ground"]
+      },
+      {
+        "id": 32,
+        "num": "032",
+        "name": "Nidoran♂",
+        "img": "https://www.serebii.net/pokemon/art/032.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 33,
+        "num": "033",
+        "name": "Nidorino",
+        "img": "https://www.serebii.net/pokemon/art/033.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 34,
+        "num": "034",
+        "name": "Nidoking",
+        "img": "https://www.serebii.net/pokemon/art/034.png",
+        "type": ["Poison" , "Ground"]
+      },
+      {
+        "id": 35,
+        "num": "035",
+        "name": "Clefairy",
+        "img": "https://www.serebii.net/pokemon/art/035.png",
+        "type": ["Fairy"]
+      },
+      {
+        "id": 36,
+        "num": "036",
+        "name": "Clefable",
+        "img": "https://www.serebii.net/pokemon/art/036.png",
+        "type": ["Fairy"]
+      },
+      {
+        "id": 37,
+        "num": "037",
+        "name": "Vulpix",
+        "img": "https://www.serebii.net/pokemon/art/037.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 38,
+        "num": "038",
+        "name": "Ninetales",
+        "img": "https://www.serebii.net/pokemon/art/038.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 39,
+        "num": "039",
+        "name": "Jigglypuff",
+        "img": "https://www.serebii.net/pokemon/art/039.png",
+        "type": ["Normal" , "Fairy"]
+      },
+      {
+        "id": 40,
+        "num": "040",
+        "name": "Wigglytuff",
+        "img": "https://www.serebii.net/pokemon/art/040.png",
+        "type": ["Normal" , "Fairy"]
+      },
+      {
+        "id": 41,
+        "num": "041",
+        "name": "Zubat",
+        "img": "https://www.serebii.net/pokemon/art/041.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 42,
+        "num": "042",
+        "name": "Golbat",
+        "img": "https://www.serebii.net/pokemon/art/042.png",
+        "type": ["Poison" , "Flying"]
+      },
+      {
+        "id": 43,
+        "num": "043",
+        "name": "Oddish",
+        "img": "https://www.serebii.net/pokemon/art/043.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 44,
+        "num": "044",
+        "name": "Gloom",
+        "img": "https://www.serebii.net/pokemon/art/044.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 45,
+        "num": "045",
+        "name": "Vileplume",
+        "img": "https://www.serebii.net/pokemon/art/045.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 46,
+        "num": "046",
+        "name": "Paras",
+        "img": "https://www.serebii.net/pokemon/art/046.png",
+        "type": ["BUG" , "Grass"]
+      },
+      {
+        "id": 47,
+        "num": "047",
+        "name": "Parasect",
+        "img": "https://www.serebii.net/pokemon/art/047.png",
+        "type": ["BUG" , "Grass"]
+      },
+      {
+        "id": 48,
+        "num": "048",
+        "name": "Venonat",
+        "img": "https://www.serebii.net/pokemon/art/048.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 49,
+        "num": "049",
+        "name": "Venomoth",
+        "img": "https://www.serebii.net/pokemon/art/049.png",
+        "type": ["BUG" , "Poison"]
+      },
+      {
+        "id": 50,
+        "num": "050",
+        "name": "Diglett",
+        "img": "https://www.serebii.net/pokemon/art/050.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 51,
+        "num": "051",
+        "name": "Dugtrio",
+        "img": "https://www.serebii.net/pokemon/art/051.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 52,
+        "num": "052",
+        "name": "Meowth",
+        "img": "https://www.serebii.net/pokemon/art/052.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 53,
+        "num": "053",
+        "name": "Persian",
+        "img": "https://www.serebii.net/pokemon/art/053.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 54,
+        "num": "054",
+        "name": "Psyduck",
+        "img": "https://www.serebii.net/pokemon/art/054.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 55,
+        "num": "055",
+        "name": "Golduck",
+        "img": "https://www.serebii.net/pokemon/art/055.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 56,
+        "num": "056",
+        "name": "Mankey",
+        "img": "https://www.serebii.net/pokemon/art/056.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 57,
+        "num": "057",
+        "name": "Primeape",
+        "img": "https://www.serebii.net/pokemon/art/057.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 58,
+        "num": "058",
+        "name": "Growlithe",
+        "img": "https://www.serebii.net/pokemon/art/058.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 59,
+        "num": "059",
+        "name": "Arcanine",
+        "img": "https://www.serebii.net/pokemon/art/059.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 60,
+        "num": "060",
+        "name": "Poliwag",
+        "img": "https://www.serebii.net/pokemon/art/060.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 61,
+        "num": "061",
+        "name": "Poliwhirl",
+        "img": "https://www.serebii.net/pokemon/art/061.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 62,
+        "num": "062",
+        "name": "Poliwrath",
+        "img": "https://www.serebii.net/pokemon/art/062.png",
+        "type": ["Water" , "Fighter"]
+      },
+      {
+        "id": 63,
+        "num": "063",
+        "name": "Abra",
+        "img": "https://www.serebii.net/pokemon/art/063.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 64,
+        "num": "064",
+        "name": "Kadabra",
+        "img": "https://www.serebii.net/pokemon/art/064.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 65,
+        "num": "065",
+        "name": "Alakazam",
+        "img": "https://www.serebii.net/pokemon/art/065.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 66,
+        "num": "066",
+        "name": "Machop",
+        "img": "https://www.serebii.net/pokemon/art/066.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 67,
+        "num": "067",
+        "name": "Machoke",
+        "img": "https://www.serebii.net/pokemon/art/067.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 68,
+        "num": "068",
+        "name": "Machamp",
+        "img": "https://www.serebii.net/pokemon/art/068.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 69,
+        "num": "069",
+        "name": "Bellsprout",
+        "img": "https://www.serebii.net/pokemon/art/069.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 70,
+        "num": "070",
+        "name": "Weepinbell",
+        "img": "https://www.serebii.net/pokemon/art/070.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 71,
+        "num": "071",
+        "name": "Victreebel",
+        "img": "https://www.serebii.net/pokemon/art/071.png",
+        "type": ["Grass" , "Poison"]
+      },
+      {
+        "id": 72,
+        "num": "072",
+        "name": "Tentacool",
+        "img": "https://www.serebii.net/pokemon/art/072.png",
+        "type": ["Water" , "Poison"]
+      },
+      {
+        "id": 73,
+        "num": "073",
+        "name": "Tentacruel",
+        "img": "https://www.serebii.net/pokemon/art/073.png",
+        "type": ["Water" , "Poison"]
+      },
+      {
+        "id": 74,
+        "num": "074",
+        "name": "Geodude",
+        "img": "https://www.serebii.net/pokemon/art/074.png",
+        "type": ["Rock" , "Ground"]
+      },
+      {
+        "id": 75,
+        "num": "075",
+        "name": "Graveler",
+        "img": "https://www.serebii.net/pokemon/art/075.png",
+        "type": ["Rock" , "Ground"]
+      },
+      {
+        "id": 76,
+        "num": "076",
+        "name": "Golem",
+        "img": "https://www.serebii.net/pokemon/art/076.png",
+        "type": ["Rock" , "Ground"]
+      },
+      {
+        "id": 77,
+        "num": "077",
+        "name": "Ponyta",
+        "img": "https://www.serebii.net/pokemon/art/077.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 78,
+        "num": "078",
+        "name": "Rapidash",
+        "img": "https://www.serebii.net/pokemon/art/078.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 79,
+        "num": "079",
+        "name": "Slowpoke",
+        "img": "https://www.serebii.net/pokemon/art/079.png",
+        "type": ["Water" , "Psychic"]
+      },
+      {
+        "id": 80,
+        "num": "080",
+        "name": "Slowbro",
+        "img": "https://www.serebii.net/pokemon/art/080.png",
+        "type": ["Water" , "Psychic"]
+      },
+      {
+        "id": 81,
+        "num": "081",
+        "name": "Magnemite",
+        "img": "https://www.serebii.net/pokemon/art/081.png",
+        "type": ["Electric" , "Steel"]
+      },
+      {
+        "id": 82,
+        "num": "082",
+        "name": "Magneton",
+        "img": "https://www.serebii.net/pokemon/art/082.png",
+        "type": ["Electric" , "Steel"]
+      },
+      {
+        "id": 83,
+        "num": "083",
+        "name": "Farfetch'd",
+        "img": "https://www.serebii.net/pokemon/art/083.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 84,
+        "num": "084",
+        "name": "Doduo",
+        "img": "https://www.serebii.net/pokemon/art/084.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 85,
+        "num": "085",
+        "name": "Dodrio",
+        "img": "https://www.serebii.net/pokemon/art/085.png",
+        "type": ["Normal" , "Flying"]
+      },
+      {
+        "id": 86,
+        "num": "086",
+        "name": "Seel",
+        "img": "https://www.serebii.net/pokemon/art/086.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 87,
+        "num": "087",
+        "name": "Dewgong",
+        "img": "https://www.serebii.net/pokemon/art/087.png",
+        "type": ["Water" , "Ice"]
+      },
+      {
+        "id": 88,
+        "num": "088",
+        "name": "Grimer",
+        "img": "https://www.serebii.net/pokemon/art/088.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 89,
+        "num": "089",
+        "name": "Muk",
+        "img": "https://www.serebii.net/pokemon/art/089.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 90,
+        "num": "090",
+        "name": "Shellder",
+        "img": "https://www.serebii.net/pokemon/art/090.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 91,
+        "num": "091",
+        "name": "Cloyster",
+        "img": "https://www.serebii.net/pokemon/art/091.png",
+        "type": ["Water" , "Ice"]
+      },
+      {
+        "id": 92,
+        "num": "092",
+        "name": "Gastly",
+        "img": "https://www.serebii.net/pokemon/art/092.png",
+        "type": ["Ghost" , "Poison"]
+      },
+      {
+        "id": 93,
+        "num": "093",
+        "name": "Haunter",
+        "img": "https://www.serebii.net/pokemon/art/093.png",
+        "type": ["Ghost" , "Poison"]
+      },
+      {
+        "id": 94,
+        "num": "094",
+        "name": "Gengar",
+        "img": "https://www.serebii.net/pokemon/art/094.png",
+        "type": ["Ghost" , "Poison"]
+      },
+      {
+        "id": 95,
+        "num": "095",
+        "name": "Onix",
+        "img": "https://www.serebii.net/pokemon/art/095.png",
+        "type": ["Rock" , "Ground"]
+      },
+      {
+        "id": 96,
+        "num": "096",
+        "name": "Drowzee",
+        "img": "https://www.serebii.net/pokemon/art/096.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 97,
+        "num": "097",
+        "name": "Hypno",
+        "img": "https://www.serebii.net/pokemon/art/097.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 98,
+        "num": "098",
+        "name": "Krabby",
+        "img": "https://www.serebii.net/pokemon/art/098.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 99,
+        "num": "099",
+        "name": "Kingler",
+        "img": "https://www.serebii.net/pokemon/art/099.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 100,
+        "num": "100",
+        "name": "Voltorb",
+        "img": "https://www.serebii.net/pokemon/art/100.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 101,
+        "num": "101",
+        "name": "Electrode",
+        "img": "https://www.serebii.net/pokemon/art/101.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 102,
+        "num": "102",
+        "name": "Exeggcute",
+        "img": "https://www.serebii.net/pokemon/art/102.png",
+        "type": ["Grass", "Psychic"]
+      },
+      {
+        "id": 103,
+        "num": "103",
+        "name": "Exeggutor",
+        "img": "https://www.serebii.net/pokemon/art/103.png",
+        "type": ["Grass", "Psychic"]
+      },
+      {
+        "id": 104,
+        "num": "104",
+        "name": "Cubone",
+        "img": "https://www.serebii.net/pokemon/art/104.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 105,
+        "num": "105",
+        "name": "Marowak",
+        "img": "https://www.serebii.net/pokemon/art/105.png",
+        "type": ["Ground"]
+      },
+      {
+        "id": 106,
+        "num": "106",
+        "name": "Hitmonlee",
+        "img": "https://www.serebii.net/pokemon/art/106.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 107,
+        "num": "107",
+        "name": "Hitmonchan",
+        "img": "https://www.serebii.net/pokemon/art/107.png",
+        "type": ["Fighter"]
+      },
+      {
+        "id": 108,
+        "num": "108",
+        "name": "Lickitung",
+        "img": "https://www.serebii.net/pokemon/art/108.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 109,
+        "num": "109",
+        "name": "Koffing",
+        "img": "https://www.serebii.net/pokemon/art/109.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 110,
+        "num": "110",
+        "name": "Weezing",
+        "img": "https://www.serebii.net/pokemon/art/110.png",
+        "type": ["Poison"]
+      },
+      {
+        "id": 111,
+        "num": "111",
+        "name": "Rhyhorn",
+        "img": "https://www.serebii.net/pokemon/art/111.png",
+        "type": ["Ground", "Rock"]
+      },
+      {
+        "id": 112,
+        "num": "112",
+        "name": "Rhydon",
+        "img": "https://www.serebii.net/pokemon/art/112.png",
+        "type": ["Ground", "Rock"]
+      },
+      {
+        "id": 113,
+        "num": "113",
+        "name": "Chansey",
+        "img": "https://www.serebii.net/pokemon/art/113.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 114,
+        "num": "114",
+        "name": "Tangela",
+        "img": "https://www.serebii.net/pokemon/art/114.png",
+        "type": ["Grass"]
+      },
+      {
+        "id": 115,
+        "num": "115",
+        "name": "Kangaskhan",
+        "img": "https://www.serebii.net/pokemon/art/115.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 116,
+        "num": "116",
+        "name": "Horsea",
+        "img": "https://www.serebii.net/pokemon/art/116.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 117,
+        "num": "117",
+        "name": "Seadra",
+        "img": "https://www.serebii.net/pokemon/art/117.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 118,
+        "num": "118",
+        "name": "Goldeen",
+        "img": "https://www.serebii.net/pokemon/art/118.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 119,
+        "num": "119",
+        "name": "Seaking",
+        "img": "https://www.serebii.net/pokemon/art/119.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 120,
+        "num": "120",
+        "name": "Staryu",
+        "img": "https://www.serebii.net/pokemon/art/120.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 121,
+        "num": "121",
+        "name": "Starmie",
+        "img": "https://www.serebii.net/pokemon/art/121.png",
+        "type": ["Water" , "Psychic"]
+      },
+      {
+        "id": 122,
+        "num": "122",
+        "name": "Mr. Mime",
+        "img": "https://www.serebii.net/pokemon/art/122.png",
+        "type": ["Psychic" , "Fairy"]
+      },
+      {
+        "id": 123,
+        "num": "123",
+        "name": "Scyther",
+        "img": "https://www.serebii.net/pokemon/art/123.png",
+        "type": ["BUG","Flying"]
+      },
+      {
+        "id": 124,
+        "num": "124",
+        "name": "Jynx",
+        "img": "https://www.serebii.net/pokemon/art/124.png",
+        "type": ["Ice" , "Psychic"]
+      },
+      {
+        "id": 125,
+        "num": "125",
+        "name": "Electabuzz",
+        "img": "https://www.serebii.net/pokemon/art/125.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 126,
+        "num": "126",
+        "name": "Magmar",
+        "img": "https://www.serebii.net/pokemon/art/126.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 127,
+        "num": "127",
+        "name": "Pinsir",
+        "img": "https://www.serebii.net/pokemon/art/127.png",
+        "type": ["BUG"]
+      },
+      {
+        "id": 128,
+        "num": "128",
+        "name": "Tauros",
+        "img": "https://www.serebii.net/pokemon/art/128.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 129,
+        "num": "129",
+        "name": "Magikarp",
+        "img": "https://www.serebii.net/pokemon/art/129.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 130,
+        "num": "130",
+        "name": "Gyarados",
+        "img": "https://www.serebii.net/pokemon/art/130.png",
+        "type": ["Water" , "Flying"]
+      },
+      {
+        "id": 131,
+        "num": "131",
+        "name": "Lapras",
+        "img": "https://www.serebii.net/pokemon/art/131.png",
+        "type": ["Water" , "Ice"]
+      },
+      {
+        "id": 132,
+        "num": "132",
+        "name": "Ditto",
+        "img": "https://www.serebii.net/pokemon/art/132.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 133,
+        "num": "133",
+        "name": "Eevee",
+        "img": "https://www.serebii.net/pokemon/art/133.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 134,
+        "num": "134",
+        "name": "Vaporeon",
+        "img": "https://www.serebii.net/pokemon/art/134.png",
+        "type": ["Water"]
+      },
+      {
+        "id": 135,
+        "num": "135",
+        "name": "Jolteon",
+        "img": "https://www.serebii.net/pokemon/art/135.png",
+        "type": ["Electric"]
+      },
+      {
+        "id": 136,
+        "num": "136",
+        "name": "Flareon",
+        "img": "https://www.serebii.net/pokemon/art/136.png",
+        "type": ["Fire"]
+      },
+      {
+        "id": 137,
+        "num": "137",
+        "name": "Porygon",
+        "img": "https://www.serebii.net/pokemon/art/137.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 138,
+        "num": "138",
+        "name": "Omanyte",
+        "img": "https://www.serebii.net/pokemon/art/138.png",
+        "type": ["Rock" , "Water"]
+      },
+      {
+        "id": 139,
+        "num": "139",
+        "name": "Omastar",
+        "img": "https://www.serebii.net/pokemon/art/139.png",
+        "type": ["Rock" , "Water"]
+      },
+      {
+        "id": 140,
+        "num": "140",
+        "name": "Kabuto",
+        "img": "https://www.serebii.net/pokemon/art/140.png",
+        "type": ["Rock" , "Water"]
+      },
+      {
+        "id": 141,
+        "num": "141",
+        "name": "Kabutops",
+        "img": "https://www.serebii.net/pokemon/art/141.png",
+        "type": ["Rock" , "Water"]
+      },
+      {
+        "id": 142,
+        "num": "142",
+        "name": "Aerodactyl",
+        "img": "https://www.serebii.net/pokemon/art/142.png",
+        "type": ["Rock" , "Flying"]
+      },
+      {
+        "id": 143,
+        "num": "143",
+        "name": "Snorlax",
+        "img": "https://www.serebii.net/pokemon/art/143.png",
+        "type": ["Normal"]
+      },
+      {
+        "id": 144,
+        "num": "144",
+        "name": "Articuno",
+        "img": "https://www.serebii.net/pokemon/art/144.png",
+        "type": ["Ice" , "Flying"]
+      },
+      {
+        "id": 145,
+        "num": "145",
+        "name": "Zapdos",
+        "img": "https://www.serebii.net/pokemon/art/145.png",
+        "type": ["Electric" , "Flying"]
+      },
+      {
+        "id": 146,
+        "num": "146",
+        "name": "Moltres",
+        "img": "https://www.serebii.net/pokemon/art/146.png",
+        "type": ["Fire" , "Flying"]
+      },
+      {
+        "id": 147,
+        "num": "147",
+        "name": "Dratini",
+        "img": "https://www.serebii.net/pokemon/art/147.png",
+        "type": ["Dragon"]
+      },
+      {
+        "id": 148,
+        "num": "148",
+        "name": "Dragonair",
+        "img": "https://www.serebii.net/pokemon/art/148.png",
+        "type": ["Dragon"]
+      },
+      {
+        "id": 149,
+        "num": "149",
+        "name": "Dragonite",
+        "img": "https://www.serebii.net/pokemon/art/149.png",
+        "type": ["Dragon" , "Flying"]
+      },
+      {
+        "id": 150,
+        "num": "150",
+        "name": "Mewtwo",
+        "img": "https://www.serebii.net/pokemon/art/150.png",
+        "type": ["Psychic"]
+      },
+      {
+        "id": 151,
+        "num": "151",
+        "name": "Mew",
+        "img": "https://www.serebii.net/pokemon/art/151.png",
+        "type": ["Psychic"]
+      }
+    ]
+  }
