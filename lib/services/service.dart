@@ -5,7 +5,7 @@ import 'package:loginfuc/models/model.dart';
 class PokemonService {
   static Future<Object> getPokemonList() async {
     try{
-      final url = Uri.parse('https://raw.githubusercontent.com/AKABishamonten/login/main/api.json');
+      final url = Uri.parse('https://raw.githubusercontent.com/AKABishamonten/login/main/pokemonapi.json');
       final response = await http.get(url);
       if(response.statusCode == 200){
        return Success(code: 200, response: pokemonModelFromJson(response.body));

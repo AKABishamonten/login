@@ -14,7 +14,7 @@ class ProfilePage extends StatefulWidget {
 class _ProfilePageState extends State<ProfilePage> {
   @override
   Widget build(BuildContext context) {
-    PokemonViewModel todoViewModel = context.watch<PokemonViewModel>();
+    PokemonViewModel pokemonViewModel = context.watch<PokemonViewModel>();
     print(toString());
     return Scaffold(
       appBar: AppBar(
@@ -28,25 +28,25 @@ class _ProfilePageState extends State<ProfilePage> {
         ],
       ),
       body: ListView.builder(
-        itemCount: todoViewModel.pokemonModel.length,
+        itemCount: pokemonViewModel.pokemonModel.length,
         itemBuilder: (context, index) {
-          PokemonModel todoModel = todoViewModel.pokemonModel[index];
+          PokemonModel pokemonModel = pokemonViewModel.pokemonModel[index];
           return Padding(
             padding: const EdgeInsets.all(8.0),
             child: Card(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
-                  Image.network(todoModel.img,height:100,width: 100,fit: BoxFit.cover),
+                  Image.network(pokemonModel.img,height:100,width: 100,fit: BoxFit.cover),
                   Padding(
                     padding: const EdgeInsets.all(8.0),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Text(todoModel.name),
+                        Text(pokemonModel.name),
                         const SizedBox(height: 10,),
-                        Text(todoModel.num),
+                        Text(pokemonModel.num),
                         const SizedBox(height: 10,),
                       ],
                     ),
