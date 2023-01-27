@@ -5,7 +5,8 @@
         "num": "001",
         "name": "Bulbasaur",
         "img": "https://www.serebii.net/pokemon/art/001.png",
-        "type": ["Grass" , "Poison"]
+        "ftype": ["Grass"],
+        "stype": ["Poison"]
       },
       {
         "id": 2,
