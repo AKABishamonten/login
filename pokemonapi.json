@@ -589,7 +589,7 @@
       "name": "Abra",
       "img": "https://www.serebii.net/pokemon/art/063.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -598,7 +598,7 @@
       "name": "Kadabra",
       "img": "https://www.serebii.net/pokemon/art/064.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -607,7 +607,7 @@
       "name": "Alakazam",
       "img": "https://www.serebii.net/pokemon/art/065.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -742,7 +742,7 @@
       "img": "https://www.serebii.net/pokemon/art/079.png",
       "type": [
         "Water",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -752,7 +752,7 @@
       "img": "https://www.serebii.net/pokemon/art/080.png",
       "type": [
         "Water",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -907,7 +907,7 @@
       "name": "Drowzee",
       "img": "https://www.serebii.net/pokemon/art/096.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -916,7 +916,7 @@
       "name": "Hypno",
       "img": "https://www.serebii.net/pokemon/art/097.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -962,7 +962,7 @@
       "img": "https://www.serebii.net/pokemon/art/102.png",
       "type": [
         "Grass",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -972,7 +972,7 @@
       "img": "https://www.serebii.net/pokemon/art/103.png",
       "type": [
         "Grass",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -1137,7 +1137,7 @@
       "img": "https://www.serebii.net/pokemon/art/121.png",
       "type": [
         "Water",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -1146,7 +1146,7 @@
       "name": "Mr. Mime",
       "img": "https://www.serebii.net/pokemon/art/122.png",
       "type": [
-        "Psychic",
+        "Phychic",
         "Fairy"
       ]
     },
@@ -1167,7 +1167,7 @@
       "img": "https://www.serebii.net/pokemon/art/124.png",
       "type": [
         "Ice",
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -1412,7 +1412,7 @@
       "name": "Mewtwo",
       "img": "https://www.serebii.net/pokemon/art/150.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     },
     {
@@ -1421,7 +1421,7 @@
       "name": "Mew",
       "img": "https://www.serebii.net/pokemon/art/151.png",
       "type": [
-        "Psychic"
+        "Phychic"
       ]
     }
   ]
