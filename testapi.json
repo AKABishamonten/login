@@ -90,7 +90,7 @@
       "name": "Caterpie",
       "img": "https://www.serebii.net/pokemon/art/010.png",
       "type": [
-        "BUG"
+        "Bug"
       ]
     },
     {
@@ -99,7 +99,7 @@
       "name": "Metapod",
       "img": "https://www.serebii.net/pokemon/art/011.png",
       "type": [
-        "BUG"
+        "Bug"
       ]
     },
     {
@@ -108,7 +108,7 @@
       "name": "Metapod",
       "img": "https://www.serebii.net/pokemon/art/012.png",
       "type": [
-        "BUG",
+        "Bug",
         "Flying"
       ]
     },
@@ -118,7 +118,7 @@
       "name": "Weedle",
       "img": "https://www.serebii.net/pokemon/art/013.png",
       "type": [
-        "BUG",
+        "Bug",
         "Poison"
       ]
     },
@@ -128,7 +128,7 @@
       "name": "Kakuna",
       "img": "https://www.serebii.net/pokemon/art/014.png",
       "type": [
-        "BUG",
+        "Bug",
         "Poison"
       ]
     },
@@ -138,7 +138,7 @@
       "name": "Beedrill",
       "img": "https://www.serebii.net/pokemon/art/015.png",
       "type": [
-        "BUG",
+        "Bug",
         "Poison"
       ]
     },
@@ -148,8 +148,8 @@
       "name": "Pidgey",
       "img": "https://www.serebii.net/pokemon/art/016.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -158,8 +158,8 @@
       "name": "Pidgeotto",
       "img": "https://www.serebii.net/pokemon/art/017.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -168,8 +168,8 @@
       "name": "Pidgeot",
       "img": "https://www.serebii.net/pokemon/art/018.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -196,8 +196,8 @@
       "name": "Spearow",
       "img": "https://www.serebii.net/pokemon/art/021.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -206,8 +206,8 @@
       "name": "Fearow",
       "img": "https://www.serebii.net/pokemon/art/022.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -362,8 +362,8 @@
       "name": "Jigglypuff",
       "img": "https://www.serebii.net/pokemon/art/039.png",
       "type": [
-        "Normal",
-        "Fairy"
+        "Fairy",
+        "Normal"
       ]
     },
     {
@@ -372,8 +372,8 @@
       "name": "Wigglytuff",
       "img": "https://www.serebii.net/pokemon/art/040.png",
       "type": [
-        "Normal",
-        "Fairy"
+        "Fairy",
+        "Normal"
       ]
     },
     {
@@ -431,7 +431,7 @@
       "name": "Paras",
       "img": "https://www.serebii.net/pokemon/art/046.png",
       "type": [
-        "BUG",
+        "Bug",
         "Grass"
       ]
     },
@@ -441,7 +441,7 @@
       "name": "Parasect",
       "img": "https://www.serebii.net/pokemon/art/047.png",
       "type": [
-        "BUG",
+        "Bug",
         "Grass"
       ]
     },
@@ -451,7 +451,7 @@
       "name": "Venonat",
       "img": "https://www.serebii.net/pokemon/art/048.png",
       "type": [
-        "BUG",
+        "Bug",
         "Poison"
       ]
     },
@@ -461,7 +461,7 @@
       "name": "Venomoth",
       "img": "https://www.serebii.net/pokemon/art/049.png",
       "type": [
-        "BUG",
+        "Bug",
         "Poison"
       ]
     },
@@ -525,7 +525,7 @@
       "name": "Mankey",
       "img": "https://www.serebii.net/pokemon/art/056.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -534,7 +534,7 @@
       "name": "Primeape",
       "img": "https://www.serebii.net/pokemon/art/057.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -580,7 +580,7 @@
       "img": "https://www.serebii.net/pokemon/art/062.png",
       "type": [
         "Water",
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -616,7 +616,7 @@
       "name": "Machop",
       "img": "https://www.serebii.net/pokemon/art/066.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -625,7 +625,7 @@
       "name": "Machoke",
       "img": "https://www.serebii.net/pokemon/art/067.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -634,7 +634,7 @@
       "name": "Machamp",
       "img": "https://www.serebii.net/pokemon/art/068.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -781,8 +781,8 @@
       "name": "Farfetch'd",
       "img": "https://www.serebii.net/pokemon/art/083.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -791,8 +791,8 @@
       "name": "Doduo",
       "img": "https://www.serebii.net/pokemon/art/084.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -801,8 +801,8 @@
       "name": "Dodrio",
       "img": "https://www.serebii.net/pokemon/art/085.png",
       "type": [
-        "Normal",
-        "Flying"
+        "Flying",
+        "Normal"
       ]
     },
     {
@@ -999,7 +999,7 @@
       "name": "Hitmonlee",
       "img": "https://www.serebii.net/pokemon/art/106.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -1008,7 +1008,7 @@
       "name": "Hitmonchan",
       "img": "https://www.serebii.net/pokemon/art/107.png",
       "type": [
-        "Fighter"
+        "Fighting"
       ]
     },
     {
@@ -1156,7 +1156,7 @@
       "name": "Scyther",
       "img": "https://www.serebii.net/pokemon/art/123.png",
       "type": [
-        "BUG",
+        "Bug",
         "Flying"
       ]
     },
@@ -1194,7 +1194,7 @@
       "name": "Pinsir",
       "img": "https://www.serebii.net/pokemon/art/127.png",
       "type": [
-        "BUG"
+        "Bug"
       ]
     },
     {
