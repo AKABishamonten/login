@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loginfuc/login_fuction/authen_fuction.dart';
 import 'package:loginfuc/models/model.dart';
-import 'package:loginfuc/view_model/todo_model.dart';
+import 'package:loginfuc/view_model/pokemon_model.dart';
 import 'package:provider/provider.dart';
 
 class ProfilePage extends StatefulWidget {
